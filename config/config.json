@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "actech",
+    "password": "2@Actech",
+    "database": "actech",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

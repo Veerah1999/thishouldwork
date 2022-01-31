@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  $app-color: lightslategrey;
+
+.addquestion_container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    .errors{
+        width: '100%';
+        padding: 10;
+        text-align:center;
+        color: orangered;
+    }
+    .addquestion_section1
+    {
+        height: 60px;
+        width: 180px;
+        
+        div{
+            color: royalblue;
+            text-align: center;
+            font-size: large;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 18px;
+            
+        }
+      
+    }
+    .addquestion_section2
+    {
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        .addquestion_box1
+        {
+          .addquestion_labelexams
+          {
+            margin: 5px;
+          }
+          .addquestion_select
+          {
+            margin: 5px;
+            height: 40px;
+            width: 280px;
+            border: 2px solid $app-color;
+            border-radius: 8px;
+            color: #1f2122;
+          }
+          .addquestion_label-enddate
+        {
+            margin: 5px;
+           
+        }
+        .addquestion_input-enddate
+        {
+            margin: 5px;
+            padding: 8px;
+            width: 280px;
+            border: 2px solid $app-color;
+            border-radius: 8px;
+        }
+        }
+        .addquestion_box2
+        {
+            .addquestion_label-duration
+        {
+            margin: 5px;
+        }
+        .addquestion_input-time
+        {
+            margin: 5px;
+            padding: 8px;
+            width: 280px;
+            border: 2px solid $app-color;
+            border-radius: 8px;
+        }
+        .addquestion_label-date
+        {
+            margin: 5px;
+        }
+        .addquestion_input-startdate
+        {
+            margin: 5px;
+            padding: 8px;
+            width: 280px;
+            border: 2px solid $app-color;
+            border-radius: 8px;
+        }
+        }
+        
+        
+    }
+    .addquestion_section4
+    {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 80px;
+        .addquestion_btn
+        {
+            .addquestion_btn1, .addquestion_btn2
+            {
+                padding: 5px 35px;
+                margin-left: 20px;
+                border-radius: 8px;
+                height: 30px;
+                background-color: #2874A6;
+                border-color: dodgerblue;
+                color: #fff;
+            }
+            .addquestion_btn1:hover, .addquestion_btn2:hover
+            {
+                background-color: #fff;
+                border-color: dodgerblue;
+                color: #4A235A;
+            }
+        }
+    }
+}
